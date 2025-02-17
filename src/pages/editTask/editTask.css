@@ -1,0 +1,303 @@
+/*===================================================
+1 - title
+=====================================================*/
+/*===================================================
+2 - sub tasks section 
+=====================================================*/
+/*===================================================
+3 -buttons section 
+=====================================================*/
+
+.editTask{ 
+   min-height: calc(100vh - 128.64px);
+  }
+
+  h2{
+
+    margin-bottom: 80px;
+    margin-top: 60px;
+  }
+
+/*===================================================
+1 - title
+=====================================================*/
+.editTask .title-input{
+  background-color: rgb(36,36,36);
+  padding: 8px 50px;
+  border: none;
+  color: #4DB6AC;
+  font-size: 20px;
+
+  
+}
+/* 
+.editTask .title-input:focus {
+  outline: none;
+} */
+
+ .fa-pen-to-square{
+  font-size: 19px;
+transition: 0.2s;
+}
+ .fa-pen-to-square{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.border{
+  border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+/*===================================================
+2 - sub tasks section 
+=====================================================*/
+
+.editTask section.sub-task{
+  max-width: 620px;
+
+  margin-left:auto ;
+  margin-right: auto;
+padding: 15px;
+}
+.flex{
+  
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.editTask #checkbox{
+width: 18px;
+height: 18px;
+accent-color: rgb(101, 209, 238) ;
+
+}
+
+.editTask label{
+margin-left: 10px;
+position: relative;
+bottom: 3px;
+
+  }
+
+  .editTask .card-task{
+
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 /25%);
+    padding: 20px;
+    background-color: rgb(57, 56, 56);
+    border-radius:5px ;
+    transition: 0.2s;
+  }
+
+  .editTask .card-task:hover{
+
+    background-color: rgb(77, 77, 77);
+  }
+
+.editTask .sub-task{
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 /25%);
+background-color: rgb(50, 50, 50);
+opacity: 0.5px;
+}
+
+.editTask .card-task{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+margin-bottom: 15px;
+transition: 0.2s;
+}
+
+.editTask .card-task:hover{
+font-size: 16.5px;
+}
+
+
+.top{
+  margin: 15px;
+}
+
+.editTask .sub-task .time{
+font-size: 13px;
+
+color: #4DB6AC;
+letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================
+3 -buttons section 
+=====================================================*/
+.del{
+padding: 5px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+.editTask .add-more-btn{
+  margin-top: 25px;
+    background-color:  #0288D1;
+    padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+border-color: #dc3545;
+border: none;
+margin-right: 12px;
+}
+
+/* Adjust size for the "plus" icon */
+.add-more-btn .plus {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* Adjust size for the "trash-can" icon */
+.delete .moins {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/*===================================================
+2 - colors of light theme
+=====================================================*/
+/* background */ 
+
+
+.Light .editTask .title-input {
+  background-color: #F1F1F1;
+  border-radius: 5px;
+  color: #009688;
+  font-style: bold;
+
+}
+/* edit icon */
+
+.Light .fa-pen-to-square {
+color: #212121;
+}
+
+/*background el tasks */
+
+.Light .editTask .sub-task {
+  box-shadow: 0 5px 30px 0 rgba(64, 63, 63, 0.25);
+  background-color: #F1F1F1;
+  opacity: 0.5px;
+  
+}
+
+/*  completed text */ 
+.Light .editTask label {
+  color: rgb(55, 53, 53);
+}
+
+/*  time */ 
+.Light .editTask .sub-task .time {
+
+  color: #009688;
+}
+
+/* background kol task */
+.Light .editTask .card-task {
+  box-shadow: 0 5px 30px 0 rgba(164, 152, 152, 0.25);
+
+  background-color:#b8b8b8;
+
+}
+
+
+/*   trash */
+
+.Light .trash{
+  color: #212121;
+}
+
+
+
+/* button add */
+
+.Light .add-more-btn {
+
+background-color: #03A9F4 ;
+}
+
+
+.Light .delete {
+
+  background-color: #FF9800;
+  }
+
+  .add-new-task  .add,
+.add-new-task .cancel {
+  background-color: #03A9F4;
+  font-size: 16px;
+  padding: 8px 12px;
+  
+  border: none;
+  border-radius: 5px;
+}
+
+.add-new-task .cancel {
+
+  background-color: #FF7043 ; 
+}
+
+.add-new-task{
+  display: flex;
+    justify-content: space-around;
+
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+  padding: 30px;
+  
+  background-color: rgb(57, 56, 56);
+  border-radius: 5px;
+  margin-left: 37px;
+  animation: subtask  0.9s;
+}
+
+.btn22 button {
+  margin-right: 10px; 
+}
+/* .edit-task input.add-task{
+} */
+
+
+@keyframes subtask {
+  0%   {scale: 0;}
+
+  50%  { scale: 1.1;}
+
+  100% { scale: 1;}
+} 

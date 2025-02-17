@@ -1,0 +1,62 @@
+{
+  "signout": "Déconnexion",
+  "newest_first": "Les plus récentes",
+  "oldest_first": "Les plus anciennes",
+  "all_tasks": "Toutes les tâches",
+  "completed": "Terminées",
+  "not_completed": "Non terminées",
+  "no_tasks_left": "🎉 Félicitations! Aucune tâche restante!",
+  "signin": "Se connecter",
+  "signup": "S'inscrire",
+  "language": "Langue",
+  "profile": "Profil",
+  "about": "À propos",
+  "footerText": "Conçu et développé par E. Yousfi",
+  "loading": "Chargement...",
+  "error": "Erreur",
+  "email": "Email",
+  "username": "Nom d'utilisateur",
+  "last_signin": "Dernière connexion",
+  "account_created": "Compte créé",
+  "delete_account": "Supprimer le compte",
+  "error_invalid_email": "E-mail invalide",
+  "forgot_password": "Mot de passe oublié ?" ,
+
+  "add_new_task": "Ajouter une nouvelle tâche",
+  "add_details": "Ajouter des détails",
+  "add_task": "Ajouter une tâche" ,
+
+ "created": "Créé",
+  "add": "Ajouter",
+  "cancel": "Annuler",
+  "delete_task": "Supprimer la tâche",
+  "add_more": "Ajouter plus",
+
+
+
+  
+
+  "reset_password": "Réinitialiser le mot de passe",
+  "reset_email_sent": "Veuillez vérifier votre e-mail pour réinitialiser votre mot de passe !",
+  "dont_have_account": "Vous n'avez pas de compte ?" ,
+  "create_account": "Créez un compte",
+  "enter_name": "Nom",
+  "enter_email": "E-mail",
+  "enter_password": "Mot de passe",
+  "sign_up": "S'inscrire",
+  "already_have_account": "Vous avez déjà un compte?",
+  "sign_in": "Se connecter",
+  "invalid_email": "E-mail invalide",
+  "invalid_password": "Mot de passe invalide",
+  "email_not_found": "E-mail introuvable",
+  "missing_password": "Mot de passe manquant",
+  "too_many_requests": "Trop de requêtes, veuillez réessayer plus tard!",
+  "check_email_password": "Vérifiez votre e-mail et votre mot de passe!",
+  "verify_email": "Veuillez vérifier votre adresse e-mail",
+  "verify": "Vérifier" ,
+
+  "sign_in_message": "Veuillez",
+  "sign_in1": "vous connecter",
+  "to_continue": "pour continuer"
+
+}

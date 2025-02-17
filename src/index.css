@@ -1,0 +1,309 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title{
+  text-align: center;
+}
+
+.dark{
+  background-color: rgb(23, 20, 20);
+}
+
+.dark main{
+color: white;
+}
+
+.buttons{
+  display: flex;
+}
+
+/* .sign_in form {
+  margin: 20px;
+  padding: 10px;
+
+} */
+*{
+
+  font-family: 'Cairo', sans-serif;
+}
+.sign_in input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 6px;
+  font-size: 16px;
+
+  border: 1px solid rgb(17, 24, 27);
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+} 
+
+ border{
+  border: 1px solid rgb(237, 2, 2);
+}
+
+
+.sign_in form {
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.sign_in form button{
+
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 6px;
+  font-size: 16px;
+
+  border: 1px solid rgb(17, 24, 27);
+  border-radius: 5px;
+  
+background-color:#0288D1;
+}
+
+
+
+.sign_in .account{
+
+font-size: 20px;
+margin-top: 12px;
+font-weight: 100;
+
+}
+
+.sign_in .account a .pls a{
+
+  text-decoration: underline;
+font-weight: 600;
+color: #0288D1;
+font-size: 18px;
+  
+  }
+
+
+  .sign_in form button:hover{
+
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+    font-size: 17px;
+  
+    border: 1px solid rgb(17, 24, 27);
+    border-radius: 5px;
+    
+  background-color: #0288D1;
+  }
+
+
+
+  .sign_in form button{
+
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+    font-size: 17px;
+  
+    border: 1px solid rgb(17, 24, 27);
+    border-radius: 5px;
+    
+  background-color: #0288D1;
+  }
+
+
+  .sign_in form button:active{
+
+   scale:0.9;
+  }
+
+  .btn_o{
+
+    display: flex;
+    /* border: 1px solid white; */
+    padding-left: 12rem;
+    padding-top: 25px;
+font-size: 22px;
+  }
+
+  .pls a{
+
+    /* text-decoration: underline; */
+  font-weight: 600;
+  color:#0288D1;
+  font-size: 18px;
+
+  border-bottom: 2px solid #0288D1 ;
+    
+    }
+
+  
+
+    .profil{
+      display: flex;
+      flex-direction: column;
+
+      align-items: baseline;
+      text-align: center;
+    
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+  
+      
+    }
+
+    .delete  {
+      margin-top: 25px;
+    background-color:  #FF7043;
+    padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+border-color: #FF7043;
+border: none;
+    }
+
+
+    button:hover{
+
+      scale: 1.05;
+      transition: all 0.15s;
+    }
+
+    button:active{
+      scale: 0.9;
+    }
+
+    .verif{
+  display: flex;
+  flex-direction: column;
+    }
+
+
+    .verifb{
+      margin-top: 25px;
+    background-color:  #dc3545;
+    padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+border-color: #dc3545;
+    }
+ 
+
+    .buttons{
+      position: relative;
+    }
+
+    .signout{
+      position: absolute;
+      right:20px;
+    }
+
+    .signin {
+      position: absolute;
+      right:150px;
+    }
+
+    .signup {
+      position: absolute;
+      right:20px;
+    }
+
+  .title{
+    padding-left: 50px;
+  }
+
+  
+  .fa-heart{
+    color: rgb(238, 94, 145);
+    font-size: 20px !important;
+    
+  }
+
+
+  
+  .foot{
+    color: rgb(238, 94, 145);
+   font-size: 18px !important;
+    
+  }
+
+
+
+
+  .mt{
+    margin-top: 1em;
+  }
+
+  .mtt {
+    margin-top: 2em;
+  }
+
+  .mttt {
+    margin-top: 3em;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .Light .delete  {
+    margin-top: 25px;
+  background-color:  #FF7043;
+  padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+border-color: #FF9800;
+border: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  ::-webkit-scrollbar {
+    width: 0.88rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #292c3b;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: #d4d4d8;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 2px;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+   
+  /* for Firefox */
+   html {scrollbar-color: #787577 #3d4a59;} 

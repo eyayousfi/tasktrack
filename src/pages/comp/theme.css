@@ -1,0 +1,163 @@
+.theme-btn {
+  outline: 0;
+  border-radius: 1rem;
+  padding: .3rem .5rem;
+  color: #fff;
+  /* background-color: #3d4a59; */
+  background-color: transparent;
+  border: 1.5px solid #ddd;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all .3s;
+
+}
+
+.theme-btn:hover {
+  box-shadow: 0 0 10px #555, 0 0 40px #555, 0 0 80px #555;
+  background: #555;
+  border: none;
+  outline: 0;
+}
+
+.theme-btn:focus {
+  padding: 4px 12px;
+  box-shadow: 0 0 10px #555, 0 0 40px #555, 0 0 80px #555;
+  box-shadow: 0 0 0 5px #3d4a59, 0 0 0 6px #fff;
+}
+
+/* ==============
+  Dark mode
+=================*/
+
+.Dark {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.Dark main {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.Dark .ali {
+  background-color: rgba(17, 17, 17, 0.885) !important
+}
+
+
+/* ==============
+Icon (sun & moon)
+==================*/
+.fa-solid {
+  font-size: 20px;
+}
+
+.fa-solid:hover {
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.Light .fa-sun {
+  display: none;
+}
+
+.Light .pls{
+  color: black;
+}
+
+.Light .pls{
+  color: black;
+}
+
+
+.Light .sign_in .account a {
+
+  text-decoration: underline;
+font-weight: 600;
+color: #00c6c6;
+font-size: 18px;
+  
+  }
+
+  .Light  a{
+
+    /* text-decoration: underline; */
+  font-weight: 600;
+  color: #00c6c6;
+  font-size: 18px;
+
+    
+    }
+
+    .Light p{
+      color: rgb(43, 42, 42);
+    }
+
+
+
+
+.Light form p   {
+
+  color: black;
+  font-weight: 100;
+}
+
+.Light form    {
+
+  color: black;
+  font-weight: 100;
+}
+
+.fa-sun{
+  color: orange;
+  padding: 25px;
+  position:absolute;
+  left: 47%;
+}
+
+
+.fa-moon{
+  padding: 25px;
+  position:absolute;
+  left: 47%;
+}
+
+.Dark .fa-moon {
+  display: none;
+  
+}
+
+.Dark .sign_in .account a {
+
+  text-decoration: underline;
+font-weight: 600;
+color: #00c6c6;
+font-size: 18px;
+  
+  }
+
+  .Dark  a{
+
+    /* text-decoration: underline; */
+  font-weight: 600;
+  color: #0288D1;
+  font-size: 18px;
+
+
+    
+    }
+
+    .Light .profil h6 {
+      color: rgb(19, 14, 14);
+    }
+    .Light .profil  .moment{
+      color: rgb(19, 14, 14);
+    }
+
+    .Dark .about{
+      color: white;
+    }
+
+    .Light .about{
+      color: black;
+    }
+
+    

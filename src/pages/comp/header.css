@@ -1,0 +1,153 @@
+
+.logo {
+  animation: logoani 25s infinite;
+}
+
+
+.lang {
+  position: absolute;
+  right:600px;
+  bottom: 15px;
+
+}
+
+.aboutt {
+  position: absolute;
+  right:400px;
+  bottom: 25px;
+  
+}
+
+
+ul.lang-box{
+  display: none;
+position: absolute;
+top: 50px;
+left: 1px;
+border-radius: 3px;
+background-color: #2c2b2b;
+padding: 20px;
+border-top: #0288D1;
+}
+
+.l{
+  color: #0288D1;
+  font-size: 19px;
+
+}
+
+
+
+
+li.language:hover ul.lang-box{
+
+  display: block;
+
+
+}
+ul.lang-box li{
+  display: flex;
+  justify-Content: space-between ;
+  align-items: center;
+  padding:2px;
+  font-size:14px;
+  text-align: start;
+  border-bottom: 1px solid rgb(66, 64, 64);
+  transition: 0.13s;
+  margin-top: 2px;
+
+
+
+
+}
+
+ul.lang-box li:hover{
+
+  font-size: 15px;
+  background-color:#323131 ;
+
+  
+
+}
+
+
+
+
+
+
+.signup{
+  margin: 1px;
+}
+
+
+.signout{
+  position: absolute;
+  right:10px;
+
+
+
+}
+
+
+
+
+
+
+.signin{
+  position: absolute;
+right: 250px; 
+bottom: 9px;
+
+}
+
+
+.profiil {
+  position: absolute;
+  right:250px;
+  bottom: 25px;
+}
+
+
+
+.lnn {
+  position: absolute;
+  right:430px;
+  top: 17px
+
+}
+
+
+
+
+
+
+/* ************* Light ************ */
+
+
+.Light .l{
+  color: #0288D1;
+  font-size: 19px;
+
+}
+
+
+.Light ul.lang-box p{
+color: rgb(183, 193, 193);
+
+
+
+
+}
+
+@keyframes logoani {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    letter-spacing: 7px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,308 @@
+/*===================================================
+1 - Options 
+=====================================================*/
+
+
+
+.parent-of-btns button {
+  background-color: #0288D1 ;
+  font-size: 17px;
+  padding:10px 13px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+
+
+}
+
+.parent-of-btns #browsers {
+  background-color: rgb(44, 56, 56) ;
+  font-size: 17px;
+  padding:10px 13px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+transition: 0.3s;
+
+}
+
+.parent-of-btns #browsers:hover {
+  background-color: rgb(44, 56, 56) ;
+  font-size: 19px;
+  padding:10px 13px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+
+
+}
+
+
+
+
+/*===================================================
+1 - show all tasks
+=====================================================*/
+
+
+
+
+
+  .all-tasks {
+ display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.one-task h2 ,.one-task  li{
+
+  color:#f8f8f8;
+}
+
+
+.all-tasks .one-task {
+  border: 2px solid rgb(73, 151, 153);
+  margin: 40px 20px;
+  width: 240px;
+  height:270px;
+  border-radius: 10px;
+  transition: 0.2s;
+  position: relative;
+}
+
+
+ .all-tasks .one-task:hover {
+
+
+  border-left: 8px solid#4DB6AC;
+  cursor: pointer;
+}
+
+ .all-tasks .one-task h2 {
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+
+ .all-tasks .one-task li {
+  list-style-position: inside;
+  list-style-type: circle;
+  line-height: 29px;
+  font-size: 13px;
+  /* WRONG */
+  text-align: start;
+  margin: 0 11px;
+}
+
+
+ .all-tasks .one-task .time {
+  font-size: 11px;
+position: absolute;
+right: 10px;
+bottom: 10px;
+  color: #4DB6AC;
+  line-height: 19px;
+}
+*{
+  letter-spacing: 0px ;
+
+}
+
+/*===================================================
+1 - add new task
+
+
+=====================================================*/
+.add-task-btn{
+  background-color: #0288D1;
+  font-size: 20px;
+  padding:10px 13px;
+  border-radius: 12px;
+  border: none;
+}
+
+.add-task-btn .fa-square-plus{
+
+  padding-right: 2px;
+}
+
+
+
+
+
+
+/************************ Light Mode **************************/
+
+
+.Light  .one-task h2{
+
+  color:#212121;
+}
+
+.Light .one-task li{
+
+  color:#212121;
+}
+ 
+
+.Light .time {
+
+  color: #060606 !important; 
+ }
+
+.Light .add-task-btn{
+  background-color: #03A9F4;
+
+}
+
+.Light .parent-of-btns button {
+  background-color: #03A9F4 ;
+
+
+
+}
+
+
+
+.Light .parent-of-btns #browsers {
+  background-color: #32383d ;
+
+
+}
+
+
+
+
+
+.Light  .all-tasks .one-task:hover {
+
+
+  border-left: 8px solid #009688;
+
+}
+
+
+/* add task form */
+.tasks{
+  display: flex;
+  /* height: 100%; */
+  
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+
+
+.btn-details{
+  background-color: #0288D1;
+  font-size: 15px;
+  padding: 9.5px 12.5px;
+  border-radius: 12px;
+  border: none;
+  transition: 0.2s;
+}
+
+.btn-details:hover{
+
+  font-size: 15.5px;
+  padding: 10px 13px;
+
+}
+
+.btn-details:active{
+scale: 0.5;
+
+}
+
+.btn-task{
+  background-color: #0288D1;
+  font-size: 17px;
+   margin: 5px;
+padding:10px 50px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.2s;
+
+}
+.btn-task:active{
+  scale:0.9;
+  
+}
+
+.btn-task:hover{
+  font-size: 17.5px;
+   margin: 5px;
+padding:10.5px 50.5px;
+}
+
+
+
+.task-input{
+  
+  
+  padding: 11px 25px;
+  width: 100%;
+  border: 1px solid rgb(17, 24, 27);
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.details-input{
+margin-right:8px ;
+margin-bottom: 10px;
+  padding: 11px 9px;
+  font-size: 16px;
+  border: 1px solid rgb(17, 24, 27);
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+
+
+.modal li {
+  color: #333;
+  font-size: 13px;
+  list-style-type: circle;
+  list-style-position: inside;
+
+padding: 1px ;
+margin: 1px ;
+
+
+}
+
+.modal li {
+padding: 0;
+}
+
+.show-Message{
+  background-color: whitesmoke;
+  font-size: 18px;
+  color: #1b1b1b;
+  padding: 8px 12px;
+  font-weight: normal;
+  border-radius: 5px;
+  position: fixed;
+  top: 100px;
+  transition: 2s;
+ position: fixed;
+ top: 120px;
+
+}
+
+.fa-check{
+  color: #0288D1 ;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+

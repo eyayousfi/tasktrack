@@ -1,0 +1,63 @@
+{
+  "signout": "Sign-Out",
+  "newest_first": "Newest First",
+  "oldest_first": "Oldest First",
+  "all_tasks": "All Tasks",
+  "completed": "Completed",
+  "not_completed": "Not Completed",
+  "no_tasks_left": "🎉 Congrats! No tasks left!",
+  "signin": "Sign In",
+  "signup": "Sign Up",
+  "language": "Language",
+  "profile": "Profile",
+  "about": "About",
+  "footerText": "Designed and developed by E.Yousfi",
+  "loading": "Loading...",
+  "error": "Error",
+  "email": "Email",
+  "username": "UserName",
+  "last_signin": "Last Sign-in",
+  "account_created": "Account Created",
+  "delete_account": "Delete account",
+  "error_invalid_email": "Invalid e-mail",
+  "forgot_password": "Forgot Password?" ,
+
+  "add_new_task": "Add New Task",
+  "add_details": "Add Details",
+  "add_task": "Add Task" ,
+  "created": "Created",
+  "add": "Add",
+  "cancel": "Cancel",
+  "delete_task": "Delete task",
+  "add_more": "Add more" ,
+  "enter_email": "Enter your email",
+  "enter_password": "Enter your password",
+  "sign_up": "Sign Up",
+  "reset_password": "Reset Password",
+  "reset_email_sent": "Please check your email to reset your password!",
+  "invalid_email": "Invalid email",
+  "invalid_password": "Invalid password",
+  "email_not_found": "Email not found",
+  "missing_password": "Missing password",
+  "too_many_requests": "Too many requests, please try again later!",
+  "check_email_password": "Please check your email and password!",
+  "dont_have_account": "Don't have an account?" ,
+
+
+  "create_account": "Create an account",
+  "enter_name": "Name",
+  "already_have_account": "Already have an account?",
+  "sign_in": "Sign-in",
+  "verify_email": "Please Verify your E-mail Address",
+  "verify": "Verify",
+  "sign_in_message": "Please",
+  "sign_in1": "sign in",
+  "to_continue": "to continue"
+
+
+
+
+
+
+
+}
